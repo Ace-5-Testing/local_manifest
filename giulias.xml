@@ -12,9 +12,9 @@
     <project            remote="genoxci"   name="device_oneplus_giulia"               path="device/oneplus/giulia"               />
 
 <!-- Common Trees -->
+    <project            remote="general"   name="device_oneplus_sm8650-common"        path="device/oneplus/sm8650-common"        />
     <project            remote="general"   name="vendor_oneplus_giuliac"              path="vendor/oneplus/giuliac"              />
     <project            remote="general"   name="vendor_oneplus_giulia"               path="vendor/oneplus/giulia"               />
-    <project            remote="general"   name="device_oneplus_sm8650-common"        path="device/oneplus/sm8650-common"        />
     <project            remote="general"   name="vendor_oneplus_sm8650-common"        path="vendor/oneplus/sm8650-common"        />
     <project            remote="general"   name="kernel_oneplus_sm8650"               path="kernel/oneplus/sm8650"               />
     <project            remote="general"   name="kernel_oneplus_sm8650-devicetrees"   path="kernel/oneplus/sm8650-devicetrees"   />
@@ -28,9 +28,7 @@
     <project            remote="general"   name="packages_apps_LunarisDolby"          path="packages/apps/LunarisDolby"          />
 
 <!-- Overrides -->
-    <remove-project                                                                   path="hardware/qcom-caf/sm8650/display"    />
     <remove-project                                                                   path="vendor/qcom/opensource/vibrator"     />
-    <project            remote="general"   name="hardware_qcom-caf_sm8650_display"    path="hardware/qcom-caf/sm8650/display"    />
     <project            remote="general"   name="vendor_qcom_opensource_vibrator"     path="vendor/qcom/opensource/vibrator"     />
 
 </manifest>
