@@ -6,10 +6,12 @@
 <!-- Remotes -->
     <remote             name="genoxci"     fetch="https://github.com/Ace-5-Testing"   revision="16.2-axion"                      />
     <remote             name="general"     fetch="https://github.com/Ace-5-Testing"   revision="16.2"                            />
+    <remote             name="root"        fetch="https://github.com/Ace-5-Testing"   revision="16.2-root"                       />
 
 <!-- Specific Trees -->
     <project            remote="genoxci"   name="device_oneplus_giuliac"              path="device/oneplus/giuliac"              />
     <project            remote="genoxci"   name="device_oneplus_giulia"               path="device/oneplus/giulia"               />
+    <project            remote="root"      name="kernel_oneplus_sm8650"               path="kernel/oneplus/sm8650-root"          />
 
 <!-- Common Trees -->
     <project            remote="general"   name="device_oneplus_sm8650-common"        path="device/oneplus/sm8650-common"        />
